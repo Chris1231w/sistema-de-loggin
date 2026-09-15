@@ -1,2 +1,7 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# un sistema de login donde el usuario correcto es perqueto y la contraseña es 1234 (muy facil de editar)
+user = input("user: ")
+password = input("password: ")
+if user == "perqueto" and password == "1234":
+    print("acceso concedido")
+else:
+    print("acceso denegado")
